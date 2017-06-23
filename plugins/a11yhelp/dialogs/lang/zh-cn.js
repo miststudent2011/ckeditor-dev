@@ -36,56 +36,6 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh-cn', {
 			legend: '按 ${elementsPathFocus} 以导航到元素路径栏，使用 TAB 键或右箭头键选择下一个元素，使用 SHIFT+TAB 组合键或左箭头键选择上一个元素，按空格键或回车键以选定编辑器里的元素。'
 		}
 		]
-	},
-		{
-		name: '命令',
-		items: [
-			{
-			name: ' 撤消命令',
-			legend: '按 ${undo}'
-		},
-			{
-			name: ' 重做命令',
-			legend: '按 ${redo}'
-		},
-			{
-			name: ' 加粗命令',
-			legend: '按 ${bold}'
-		},
-			{
-			name: ' 倾斜命令',
-			legend: '按 ${italic}'
-		},
-			{
-			name: ' 下划线命令',
-			legend: '按 ${underline}'
-		},
-			{
-			name: ' 链接命令',
-			legend: '按 ${link}'
-		},
-			{
-			name: ' 工具栏折叠命令',
-			legend: '按 ${toolbarCollapse}'
-		},
-			{
-			name: '访问前一个焦点区域的命令',
-			legend: '按 ${accessPreviousSpace} 访问^符号前最近的不可访问的焦点区域，例如：两个相邻的 HR 元素。重复此组合按键可以到达远处的焦点区域。'
-		},
-			{
-			name: '访问下一个焦点区域命令',
-			legend: '按 ${accessNextSpace} 以访问^符号后最近的不可访问的焦点区域。例如：两个相邻的 HR 元素。重复此组合按键可以到达远处的焦点区域。'
-		},
-			{
-			name: '辅助功能帮助',
-			legend: '按 ${a11yHelp}'
-		},
-			{
-			name: ' Paste as plain text', // MISSING
-			legend: 'Press ${pastetext}', // MISSING
-			legendEdge: 'Press ${pastetext}, followed by ${paste}' // MISSING
-		}
-		]
 	}
 	],
 	tab: 'Tab 键',
@@ -141,5 +91,10 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'zh-cn', {
 	openBracket: '左中括号键',
 	backSlash: '反斜杠键',
 	closeBracket: '右中括号键',
-	singleQuote: '单引号键'
+	singleQuote: '单引号键',
+	commandsList: {
+		sectionName: 'Commands', // MISSING
+		command: 'Command', // MISSING
+		keystroke: 'Keystroke' // MISSING
+	}
 } );

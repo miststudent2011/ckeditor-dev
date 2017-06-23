@@ -36,56 +36,6 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'ru', {
 			legend: 'Нажмите ${elementsPathFocus}, чтобы перейти к панели пути элементов. Переход к следующей кнопке элемента - TAB или стрелкой "ВПРАВО". Переход к предыдущей кнопку - SHIFT+TAB или стрелкой "ВЛЕВО". Нажмите SPACE, или ENTER, чтобы выбрать элемент в редакторе.'
 		}
 		]
-	},
-		{
-		name: 'Команды',
-		items: [
-			{
-			name: 'Отменить',
-			legend: 'Нажмите ${undo}'
-		},
-			{
-			name: 'Повторить',
-			legend: 'Нажмите ${redo}'
-		},
-			{
-			name: 'Полужирный',
-			legend: 'Нажмите ${bold}'
-		},
-			{
-			name: 'Курсив',
-			legend: 'Нажмите ${italic}'
-		},
-			{
-			name: 'Подчеркнутый',
-			legend: 'Нажмите ${underline}'
-		},
-			{
-			name: 'Гиперссылка',
-			legend: 'Нажмите ${link}'
-		},
-			{
-			name: 'Свернуть панель инструментов',
-			legend: 'Нажмите ${toolbarCollapse}'
-		},
-			{
-			name: 'Команды доступа к предыдущему фокусному пространству',
-			legend: 'Нажмите ${accessPreviousSpace}, чтобы обратиться к ближайшему недостижимому фокусному пространству перед символом "^", например: два смежных HR элемента. Повторите комбинацию клавиш, чтобы достичь отдаленных фокусных пространств.'
-		},
-			{
-			name: 'Команды доступа к следующему фокусному пространству',
-			legend: 'Press ${accessNextSpace} to access the closest unreachable focus space after the caret, for example: two adjacent HR elements. Repeat the key combination to reach distant focus spaces.'
-		},
-			{
-			name: 'Справка по горячим клавишам',
-			legend: 'Нажмите ${a11yHelp}'
-		},
-			{
-			name: ' Paste as plain text', // MISSING
-			legend: 'Press ${pastetext}', // MISSING
-			legendEdge: 'Press ${pastetext}, followed by ${paste}' // MISSING
-		}
-		]
 	}
 	],
 	tab: 'Tab',
@@ -141,5 +91,10 @@ CKEDITOR.plugins.setLang( 'a11yhelp', 'ru', {
 	openBracket: 'Открыть скобку',
 	backSlash: 'Обратная наклонная черта',
 	closeBracket: 'Закрыть скобку',
-	singleQuote: 'Одинарная кавычка'
+	singleQuote: 'Одинарная кавычка',
+	commandsList: {
+		sectionName: 'Commands', // MISSING
+		command: 'Command', // MISSING
+		keystroke: 'Keystroke' // MISSING
+	}
 } );
