@@ -452,6 +452,10 @@
 				if ( !element )
 					return null;
 
+				if ( !( element instanceof CKEDITOR.dom.element ) ) {
+					return null;
+				}
+
 				var id = getWidgetId( element );
 
 				// There's no need to check element parents if element is a wrapper.
